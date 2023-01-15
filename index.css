@@ -319,9 +319,11 @@ nav ul, li, a{
         padding-left: 10px;
     }
     .footer{
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center; 
+        text-align: center; 
+        margin: 0px;
+        padding-bottom: -100px;
+        padding-top: 10px;
+        height: 70px;
     }
     .extra-section{
         display: grid;
