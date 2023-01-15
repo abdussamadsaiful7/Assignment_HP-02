@@ -1,0 +1,192 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 0px 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first-title{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav ul, li, a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.second-header{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photo{
+    display: block;
+    margin-left:250px;
+    margin-right:250px;
+    margin-top: 50px; 
+}
+.button{
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.427);
+}
+.bold{
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragraph{
+    color: rgba(0, 0, 0, 0.37);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.header{
+    background-color:rgba(250, 235, 215, 0.591);
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    justify-content:left;
+    gap: 5px;
+}
+.teams{
+   display: flex;
+   justify-content: space-between; 
+   margin-left:220px;
+   margin-right:220px;
+   margin-top: 70px;
+   gap: 50px;
+
+}
+.team-content{
+    margin-top: 100px;
+}
+.style1{
+    color: rgba(112, 128, 144, 0.895);
+    font-weight: 900;   
+}
+.style2{
+    color: orange;
+}
+#style3{
+    border-left:4px solid orange;
+    padding-left: 8px;
+
+}
+    
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left:190px;
+    margin-right:190px;
+    margin-top: 70px;
+    gap: 50px;
+}
+.main-para{
+    border: 1px solid rgba(128, 128, 128, 0.123);
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.598);
+    margin: 8px;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-main2 img{
+    margin-top: 115px;
+}
+.button2{
+    font-weight: 900;
+    font-size: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -90px;
+    border-radius: 8px;
+    border: none;
+    color: #ffff;
+    background-color: orange;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.427);
+}
+.button:hover, .button2:hover{
+    background-color: rgba(137, 43, 226, 0.79);
+}
+.facts{
+    margin-left: 190px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    border: 1px solid rgba(128, 128, 128, 0.21);
+    width: 130px;
+    height: 120px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.436);
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.443) 
+    
+    
+}
+.logo-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.sponsors-title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.footer{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 20px; 
+    height: 80px;
+    padding-top: 20px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.443);
+
+}
+.extra-section{
+    color: #ffff;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.extra-sub-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
